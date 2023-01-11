@@ -35,7 +35,3 @@ Dependencies:
 `graph_sensitivity.py` - Explores how the detection accuracy of each algorithm changes with signal to noise ratio. 
 
 `timeseries_eval.py` - a simple script that will evaluate a time series light curve that is larger than the input for the neural network by breaking it up into smaller lightcurves. Think of it like a sliding box-car evaluation along the light curve. 
-
-
-## Comparison
-[Here](https://github.com/pearsonkyle/Exoplanet-Artificial-Intelligence/blob/master/shallue_vanderburg_recreation.py) is a keras recreation of the tensorflow code in [Shallue & Vanderburg 2018](https://iopscience.iop.org/article/10.3847/1538-3881/aa9e09/meta). I found the original code pretty hard to modify and work with in a scriptable interface. Here is the original code for reference: https://github.com/google-research/exoplanet-ml 
